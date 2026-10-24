@@ -32,9 +32,9 @@ def save_expenses(expenses):
         writer.writerows(expenses)
 
 
-st.set_page_config(page_title="Personal Expense Tracker", page_icon="💰")
-
-st.title("💰 Personal Expense Tracker")
+st.set_page_config(page_title="SpendWise", page_icon="💰")
+st.title("💰 SpendWise")
+st.caption("End-to-End Personal Expense Tracker")
 st.write("Add, view, total, and delete your everyday expenses.")
 
 expenses = load_expenses()
