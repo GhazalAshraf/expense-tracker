@@ -4,22 +4,54 @@
 
 #### Description:
 
-Expense Tracker Ghazal Github : Ghazal Ashraf edX: ghazal12399 Erfurt Germany 16 september 2026Expense Tracker is a command-line Python program that helps users record and manage their everyday expenses. I created this project as my CS50P Final Project. The program allows a user to add expenses, view saved expenses, calculate the total amount spent, and delete an expense.
+Expense Tracker Ghazal Github : Ghazal Ashraf edX: ghazal12399 Erfurt Germany 16 september 2026.
+# 💰 SpendWise
 
-When the program starts, it displays a simple menu with five options. The first option allows the user to add a new expense. The user enters the name of the expense and the amount spent. For example, the user can enter "Coffee" and an amount of 5. The program checks that the amount is valid before adding it.
+**End-to-End Personal Expense Tracker**
 
-The second option displays all saved expenses. Each expense is shown with a number, description, and amount. These numbers also make it easier for the user to choose an expense to delete.
+SpendWise is a Python-based expense tracking web application that allows users to add, view, calculate, and delete everyday expenses through a simple Streamlit interface.
 
-The third option calculates the total amount of all saved expenses. The program adds the amounts together and displays the result with two decimal places.
+## 🚀 Live Demo
 
-The fourth option allows the user to delete an expense. The user enters the number of the expense they want to remove. The program checks whether the number is valid before deleting the expense.
+**Streamlit App:** (https://expense-tracker-nxpbsikowkqtxznc4ag6gx.streamlit.app/)
 
-The fifth option exits the program.
+## ✨ Features
 
-The project uses a CSV file called `expenses.csv` to store information. This means that expenses are not lost when the program is closed. When the program starts again, it reads the saved expenses from the CSV file.
+- Add new expenses with a description and amount
+- View saved expenses in a clear table
+- Automatically calculate total expenses
+- Delete individual expenses
+- CSV-based expense storage
+- Input validation
+- Automated testing with Pytest
+- Interactive web interface built with Streamlit
 
-The main program is stored in `project.py`. The `main` function controls the menu and user interaction. The `add_expense` function adds expenses to the list and prevents invalid amounts. The `calculate_total` function calculates the total amount spent. The `format_expenses` function formats the expense list so that it is easy to read. The `delete_expense` function removes an expense using its number. The `save_expenses` and `load_expenses` functions are responsible for saving and loading data from the CSV file.
+## 🛠️ Tech Stack
 
-The file `test_project.py` contains automated tests using pytest. These tests check important functions such as adding an expense, calculating the total, and formatting expenses. Testing helped make sure that the main parts of the program work correctly.
+- Python
+- Streamlit
+- Pandas
+- CSV
+- Pytest
+- GitHub
+- Streamlit Community Cloud
 
-I chose an expense tracker because it is a practical application that can be useful in everyday life. While developing the project, I learned more about functions, lists, dictionaries, CSV files, exception handling, loops, user input, and automated testing in Python.
+## 📁 Project Structure
+
+- `streamlit_app.py` — Streamlit web application
+- `project.py` — original expense tracker logic
+- `test_project.py` — automated tests
+- `expenses.csv` — expense data
+- `requirements.txt` — Python dependencies
+
+## 🧪 Testing
+
+The original Python application includes automated tests using Pytest to verify the core expense-tracking functions.
+
+## 📌 Project Background
+
+This project began as my CS50P Final Project and was later extended into a deployed web application with Streamlit.
+
+## 👩‍💻 Author
+
+Ghazal Ashrafe. While developing the project, I learned more about functions, lists, dictionaries, CSV files, exception handling, loops, user input, and automated testing in Python.
