@@ -1,10 +1,3 @@
-# Expense Tracker
-
-#### Video Demo: https://youtu.be/pkznP4q_hYY
-
-#### Description:
-
-Expense Tracker Ghazal Github : Ghazal Ashraf edX: ghazal12399 Erfurt Germany 16 september 2026.
 # 💰 SpendWise
 
 **End-to-End Personal Expense Tracker**
